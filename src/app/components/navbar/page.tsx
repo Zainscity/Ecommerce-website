@@ -1,14 +1,16 @@
 
 "use client";
 import { IoClose } from "react-icons/io5";
-
 import Link from "next/link";
 import React, { useState } from "react";
 import { MdManageAccounts, MdOutlineShoppingCart } from "react-icons/md";
 import { CiSearch, CiHeart, CiUser, CiShoppingCart } from "react-icons/ci";
 import { TbMenu4 } from "react-icons/tb";
 
-const Navbar = (props:any) => {
+interface NavbarProps {
+  bgColor: string;
+  
+}const Navbar: React.FC<NavbarProps> = (props) => {
   const [isClick, setisClick] = useState(false);
 
   const toggleNavbar = (): void => {
@@ -21,16 +23,16 @@ const Navbar = (props:any) => {
         <div className="container mx-auto flex flex-wrap  p-5 flex-col md:flex-row items-center justify-between  ">
       
           <nav className="hidden md:block md:ml-auto flex flex-wrap md:space-x-14 md:mr-16 items-center text-base justify-center">
-            <Link href={"/home"} className="mr-5 hover:text-gray-900">
+            <Link href="/" className="mr-5 hover:text-gray-900">
             Home
             </Link>
             <Link href={"/components/shop"} className="mr-5 hover:text-gray-900">
               Shop
             </Link>
-            <Link href={"/about"} className="mr-5 hover:text-gray-900">
+            <Link href="/components/about" className="mr-5 hover:text-gray-900">
               About
             </Link>
-            <Link href={"/contact"} className="mr-5 hover:text-gray-900">
+            <Link href="/components/contact" className="mr-5 hover:text-gray-900">
               Contact
             </Link>
           </nav>
@@ -41,7 +43,7 @@ const Navbar = (props:any) => {
                 {" "}
                 <Link href={"myaccount"}>
                   {" "}
-                  <MdManageAccounts/>{" "}
+                  <CiUser/>{" "}
                 </Link>{" "}
               </span>
               <span className="  xs:visible w-[20px]  h-[28px] top-[36px] left-[1093px] text-[30px] ">
@@ -58,7 +60,7 @@ const Navbar = (props:any) => {
                 {" "}
                 <Link href={"/cart"}>
                   {" "}
-                  <MdOutlineShoppingCart />{" "}
+                  <CiShoppingCart />{" "}
                 </Link>{" "}
               </span>
             </div>
