@@ -1,12 +1,12 @@
 "use client";
 
 import CartSlider from "../cart/page";
-import Navbar from "../navbar2/page";
+import Navbar from "../navbar/page";
 
 export default function About() {
     return (
       <div>
-        <Navbar/>
+        <Navbar bgColor="bg-white" />
         <CartSlider/>
       </div>
     
