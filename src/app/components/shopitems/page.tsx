@@ -69,15 +69,15 @@ export default function Shopitems() {
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {products.map((product, index) => (
               <div key={index} className="text-center">
-                <img src={product.img} alt={product.name} className="mx-auto w-82 mb-8" />
                   <Link href={`/components/shop/${product.id}`}>
+                  <img src={product.img} alt={product.name} className="mx-auto w-82 mb-8" />
+
                       <h3 className="mt-4 text-lg font-semibold ">{product.name}</h3>
                   </Link>
                 <p className="text-gray-500">{product.price}</p>
               </div>
             ))}
           </div>
-          <a href="/shop" className="mt-8 inline-block text-black border-b-2 border-black">View More</a>
         </section>
       );
     };

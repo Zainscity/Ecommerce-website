@@ -36,9 +36,3 @@ const ProductPage = ({ params }: ProductPageProps) => {
 
 export default ProductPage;
 
-{/* <div className="container mx-auto p-5">
-//       <h1 className="text-3xl font-bold mb-5">{product.name}</h1>
-//       <img src={product.img} alt={product.name} className="w-full h-auto mb-5" />
-//       <p className="text-xl mb-5">{product.description}</p>
-//       <p className="text-2xl font-bold">{product.price}</p>
-//     </div> */}
