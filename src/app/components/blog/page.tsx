@@ -6,19 +6,19 @@ export default function Blog() {
       title: "Going all-in with millennial design",
       date: "12th Oct 2022",
       readTime: "5 min",
-      img: "blog1.jpeg",
+      Image: "blog1.jpeg",
     },
     {
       title: "Going all-in with millennial design",
       date: "12th Oct 2022",
       readTime: "5 min",
-      img: "blog2.jpeg",
+      Image: "blog2.jpeg",
     },
     {
       title: "Going all-in with millennial design",
       date: "12th Oct 2022",
       readTime: "5 min",
-      img: "blog3.jpeg",
+      Image: "blog3.jpeg",
     },
   ];
 
@@ -38,7 +38,7 @@ export default function Blog() {
             className="text-center bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
           >
             <img
-              src={blog.img}
+              src={blog.Image}
               alt={blog.title}
               className="mx-auto mb-4 w-full h-48 object-cover rounded-lg"
             />
