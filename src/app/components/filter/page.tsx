@@ -48,7 +48,7 @@ const FilterBar = () => {
           <select
             className="p-1 border rounded-md text-sm md:text-base"
             value={itemsToShow}
-            onChange={(e) => setItemsToShow(e.target.value)}
+            onChange={(e) => setItemsToShow(Number(e.target.value))}
           >
             <option value={8}>8</option>
             <option value={16}>16</option>

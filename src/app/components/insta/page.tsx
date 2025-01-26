@@ -1,14 +1,4 @@
 
-// export default function Insta() {
-//     return (
-//       <section  className=" p-8 text-center">
-//         <h2 className="text-2xl font-bold mb-4"> Our Instagram</h2>
-//         <p className="text-gray-600 mb-4">Follow our store on Instagram</p>
-//         <a href="https://instagram.com" className="inline-block border-2 border-black py-2 px-4">Follow Us</a>
-//       </section>
-//     );
-//   };
-  
 
 export default function Insta() {
     return (
