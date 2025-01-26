@@ -7,7 +7,7 @@ import { MdManageAccounts, MdOutlineShoppingCart } from "react-icons/md";
 import { CiSearch, CiHeart, CiUser, CiShoppingCart } from "react-icons/ci";
 import { TbMenu4 } from "react-icons/tb";
 
-const Navbar = (props:any) => {
+const Navbar = () => {
   const [isClick, setisClick] = useState(false);
 
   const toggleNavbar = (): void => {

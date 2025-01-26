@@ -41,7 +41,9 @@ const Featured = () => {
 };
 
 // Simple inline styles for the design
-const containerStyle = {
+import { CSSProperties } from 'react';
+
+const containerStyle: CSSProperties = {
   display: "flex",
   flexDirection: "row",
   justifyContent: "center",
@@ -52,7 +54,7 @@ const containerStyle = {
 };
 
 
-const cardStyle = {
+const cardStyle: CSSProperties = {
   width: "90%", // Adjust width for smaller screens
     maxWidth: "400px", // Restrict maximum width
   height: "562px",
