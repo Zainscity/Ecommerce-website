@@ -17,7 +17,7 @@ export default function NewArrival() {
           Asgaard Sofa
         </h1>
         <a
-          href="/components/singleproduct"
+          href="/components/shop/14"
           className="inline-block mt-8 lg:ml-12 border-2 border-black py-4 px-12 text-lg text-black hover:bg-black hover:text-white transition duration-300"
         >
           Order Now

@@ -14,5 +14,7 @@
   { "id": 13, "name": "Granite square side table ", "price": "Rs. 258,800.00", "img": "/shopitem14.png",  "description": "A granite square side table."},
   { "id": 14, "name": "Asgaard sofa ", "price": "Rs. 250,000.00", "img": "/newarrival.png",  "description": "An Asgaard sofa." },
   { "id": 15, "name": "Maya sofa three seater ", "price": "Rs. 115,000.00", "img": "/shopitem15.png" , "description": "A Maya sofa three seater." },
-  { "id": 16, "name": "Outdoor sofa set ", "price": "Rs. 244,000.00", "img": "/shopitem16.png" , "description": "An outdoor sofa set."}
+  { "id": 16, "name": "Outdoor sofa set ", "price": "Rs. 244,000.00", "img": "/shopitem16.png" , "description": "An outdoor sofa set."},
+  { "id": 17, "name": "Rocket single seater", "price": "Rs. 44,000.00", "img": "/sofa1.png" , "description": "A comfortable modular sofa."}
+
 ]

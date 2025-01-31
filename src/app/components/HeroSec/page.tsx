@@ -19,7 +19,7 @@ const Hero = () => {
             Seater
           </h2>
 
-          <Link href={''}>
+          <Link href={'components/shop/17'}>
             <button className="mt-8 px-8 py-3 text-xl font-medium text-black border-2 border-black hover:bg-black hover:text-white transition duration-300">
               Shop Now
             </button>
