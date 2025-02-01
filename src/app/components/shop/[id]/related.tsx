@@ -1,10 +1,10 @@
 
 export default function Related() {
     const products = [
-        { name: "Trenton modular sofa", price: "Rs. 25,000.00", img: "picks1.png" },
-        { name: "Granite dining table", price: "Rs. 25,000.00", img: "picks2.png" },
-        { name: "Outdoor bar table", price: "Rs. 25,000.00", img: "picks3.png" },
-        { name: "Plain console", price: "Rs. 25,000.00", img: "picks4.png" },
+        { name: "Trenton modular sofa", price: "Rs. 25,000.00", img: "/picks1.png" },
+        { name: "Granite dining table", price: "Rs. 25,000.00", img: "/picks2.png" },
+        { name: "Outdoor bar table", price: "Rs. 25,000.00", img: "/picks3.png" },
+        { name: "Plain console", price: "Rs. 25,000.00", img: "/picks4.png" },
       ];
     
       return (
