@@ -96,7 +96,7 @@ const ProductPage = ({ params }: ProductPageProps) => {
                             <FaPlus />
                         </button>
                     </div>
-                    <Link href="/components/cart" legacyBehavior>
+                    <Link href="#" legacyBehavior>
                         <a className="px-6 py-2 border border-black rounded-lg font-bold hover:bg-black hover:text-white transition-all">
                             Add To Cart
                         </a>
